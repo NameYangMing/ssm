@@ -19,6 +19,7 @@ public class UserServiceImpl implements UserService{
     @Override
     public List<User> queryAll() {
         System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAA");
+
         List<User> users = userDao.queryAll();
         return users;
     }
