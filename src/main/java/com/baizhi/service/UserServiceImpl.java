@@ -18,6 +18,7 @@ public class UserServiceImpl implements UserService{
     @Transactional(propagation = Propagation.SUPPORTS)
     @Override
     public List<User> queryAll() {
+        System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAA");
         List<User> users = userDao.queryAll();
         return users;
     }
