@@ -20,6 +20,7 @@ public class UserServiceImpl implements UserService{
     public List<User> queryAll() {
         System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAA");
         List<User> users = userDao.queryAll();
+         System.out.println("CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC");
         return users;
     }
 }
