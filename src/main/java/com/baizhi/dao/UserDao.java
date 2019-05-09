@@ -6,6 +6,6 @@ import java.util.List;
 
 public interface UserDao {
 //       查询所有
-    public List<User> queryAll();
+List<User> queryAll();
 
 }
